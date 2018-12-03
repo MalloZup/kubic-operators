@@ -1,0 +1,15 @@
+# the main binary
+cmd/dex-operator/dex-operator
+
+# code coverage
+cover.out
+
+# images
+*dex-operator-latest.tar.gz
+
+# vendored deps, IDEs and other dirs
+!vendor/**/zz_generated.*
+
+go.sum
+
+Makefile.local

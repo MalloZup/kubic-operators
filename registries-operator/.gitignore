@@ -1,0 +1,19 @@
+# the main binary
+cmd/registries-operator/registries-operator
+
+# coverage files
+cover.out
+
+# images
+*-operator-latest.tar.gz
+
+# vendored deps, IDEs and other dirs
+vendor/
+.idea
+
+# vendored deps, IDEs and other dirs
+!vendor/**/zz_generated.*
+
+go.sum
+
+Makefile.local
